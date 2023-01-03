@@ -116,6 +116,7 @@ export default function Home() {
               with&nbsp;Vercel.
             </p>
           </a>
+          <a href='/stepper'>Stepper MUI</a>
         </div>
       </main>
     </>
