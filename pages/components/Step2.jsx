@@ -13,6 +13,24 @@ function Step2() {
                     <Grid item xs={8}>
                         <TextField id="outlined-basic" label="Fullname" variant="outlined" sx={{width : '100%'}}/>
                     </Grid>
+                    <Grid item xs={4}>
+                        <Typography sx={{marginTop : '1em'}}>Phone Number</Typography>
+                    </Grid>
+                    <Grid item xs={8}>
+                        <TextField id="outlined-basic" label="Phone Number" variant="outlined" sx={{width : '100%'}}/>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Typography sx={{marginTop : '1em'}}>Hobby</Typography>
+                    </Grid>
+                    <Grid item xs={8}>
+                        <TextField id="outlined-basic" label="Hobby" variant="outlined" sx={{width : '100%'}}/>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Typography sx={{marginTop : '1em'}}>Profession</Typography>
+                    </Grid>
+                    <Grid item xs={8}>
+                        <TextField id="outlined-basic" label="Profession" variant="outlined" sx={{width : '100%'}}/>
+                    </Grid>
                 </Grid>
             </CardContent>
         </>
